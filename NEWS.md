@@ -16,6 +16,8 @@
 
 * new command `bedtools`
 
+* new command `strelka`
+
 # blit 0.2.0
 
 ## New features
