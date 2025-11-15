@@ -1,9 +1,12 @@
+#' Run strelka
+#' 
 #' Strelka is a fast and accurate small variant caller optimized for analysis of germline variation 
 #' in small cohorts and somatic variation in tumor/normal sample pairs. 
 #'
 #' @param script Name of the Strelka script. One of
 #' `r oxford_comma(code_quote(StrelkaScripts))`.
 #' @param ... `r rd_dots("strelka")`.
+#' @param strelka `r rd_cmd("strelka")`.
 #' @seealso 
 #' - <https://github.com/Illumina/strelka>
 #' 
@@ -15,7 +18,10 @@ strelka <- make_command(
   "strelka",
   function(script, ...) {
     script <- rlang::arg_match0(script, StrelkaScripts)
-    Strelka$new(script = script, ...)
+    Strelka$new(
+      script = script,
+      ...
+      )
   }
 )
 

@@ -2,8 +2,7 @@
 % Please edit documentation in R/cmd-strelka.R
 \name{strelka}
 \alias{strelka}
-\title{Strelka is a fast and accurate small variant caller optimized for analysis of germline variation
-in small cohorts and somatic variation in tumor/normal sample pairs.}
+\title{Run strelka}
 \usage{
 strelka(script, ...)
 }
@@ -12,6 +11,8 @@ strelka(script, ...)
 \code{"configureStrelkaGermlineWorkflow"}, \code{"configureStrelkaSomaticWorkflow"}, and \code{"runWorkflow"}.}
 
 \item{...}{<\link[rlang:dyn-dots]{dynamic dots}> Additional arguments passed to \code{strelka} command. Empty arguments are automatically trimmed. If a single argument, such as a file path, contains spaces, it must be quoted, for example using \code{\link[=shQuote]{shQuote()}}. Details see: \code{cmd_help(strelka())}.}
+
+\item{strelka}{A string of path to \code{strelka} command.}
 }
 \value{
 A \code{command} object.
