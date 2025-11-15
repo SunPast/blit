@@ -38,6 +38,7 @@ Invoke a System Command
 \item \code{\link[=samtools]{samtools()}}
 \item \code{\link[=seqkit]{seqkit()}}
 \item \code{\link[=snpEff]{snpEff()}}
+\item \code{\link[=strelka]{strelka()}}
 \item \code{\link[=trust4]{trust4()}}
 \item \code{\link[=varscan]{varscan()}}
 }

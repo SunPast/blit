@@ -46,6 +46,7 @@ Other \code{commands}:
 \code{\link{python}()},
 \code{\link{samtools}()},
 \code{\link{snpEff}()},
+\code{\link{strelka}()},
 \code{\link{trust4}()},
 \code{\link{varscan}()}
 }

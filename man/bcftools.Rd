@@ -50,6 +50,7 @@ Other \code{commands}:
 \code{\link{samtools}()},
 \code{\link{seqkit}()},
 \code{\link{snpEff}()},
+\code{\link{strelka}()},
 \code{\link{trust4}()},
 \code{\link{varscan}()}
 }
