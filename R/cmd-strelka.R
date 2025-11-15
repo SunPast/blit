@@ -29,8 +29,7 @@ Strelka <- R6::R6Class(
       py2 <- Sys.which("python2")
       if (py2 == "") {
         stop("Cannot locate python2. Please install it or activate a Conda environment with Python2.")
-      }
-      py2
+      }else{py2}
     },
     setup_help_params = function() "--help",
     setup_command_params = function(script) {
