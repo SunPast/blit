@@ -4,7 +4,6 @@
 #' @param script Name of the Strelka script. One of
 #' `r oxford_comma(code_quote(StrelkaScripts))`.
 #' @param ... `r rd_dots("strelka")`.
-#' @inheritParams python
 #' @seealso 
 #' - <https://github.com/Illumina/strelka>
 #' 
